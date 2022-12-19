@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #D2042D;
+}
+
+.UPA {
+	width: 100%;
+}
+
+.introduction {
+	margin: 10%;
+	color: white;
+	font-size: 1.1em;
+}
+
+.begin {
+	display: flex;
+	justify-content: center;
+}
+
+#Begin {
+	color: white;
+	border: 3px black solid;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #1B1212;
+	font-size: 1.5em;
+}
+
+#Begin:focus {
+	background-color: #28282B;
+	transition: ease-out 0.1s;
+}
+
+.questions {
+	visibility: hidden;
+	display: none;
+}
+
+.marks {
+	color: white;
+	text-align: center;
+}
+
+.buttonQ {
+	display: block;
+	color: white;
+	border: 3px black solid;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #1B1212;
+	font-size: 1.5em;
+	margin: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.buttonQ:focus {
+	background-color: #28282B;
+	transition: ease-out 0.1s;
+}
+
+#A13, #A16, #A37, #A45, #A46, #A47, #A57, #A58, #A60 {
+	font-size: 1em;
+}
+
+#quizscore {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.UPA-prapor {
+	width: 80vw;
+
+}
+
+.prapor-div {
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 300px) {
+
+	.introduction {
+		font-size: 1.5em;
+	}
+
+	#Begin {
+		font-size: 2em;
+	}
+
+}
+
+@media only screen and (min-width: 350px) {
+
+	.buttonQ {
+		font-size: 2em;
+	}
+
+	#A13, #A16, #A37, #A45, #A46, #A47, #A57, #A58, #A60 {
+	    font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (min-width: 380px) {
+
+	#Begin {
+		font-size: 2.5em;
+	}
+
+}
+
+@media only screen and (min-width: 400px) {
+
+	.UPA {
+		width: 55vw;
+		margin-top: 10%;
+
+	}
+
+	.OUN-UPA {
+		display: flex;
+		justify-content: center;
+	}
+
+	.introduction {
+		font-size: 1.6em;
+	}
+
+	.marks {
+		margin: 15px 10px 0px 10px;
+	}
+
+}
+
+@media only screen and (min-width: 460px) {
+
+	.UPA {
+		width: 50vw;
+	}
+
+	.introduction {
+		font-size: 1.8em;
+	}
+
+	.buttonQ {
+		font-size: 2.5em;
+	}
+
+	.marks {
+		font-size: 2em;
+	}
+
+	#quizscore {
+		font-size: 3em;
+	}
+
+	#A13, #A16, #A37, #A45, #A46, #A47, #A57, #A58, #A60 {
+	    font-size: 1.6em;
+    }
+
+}
+
+@media only screen and (min-width: 550px) {
+
+	.introduction {
+		font-size: 1.9em;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+	.UPA {
+		width: 35vw;
+	}
+
+    .introduction {
+    	font-size: 2em;
+    	margin-top: 5%;
+    }
+
+    #Begin {
+    	font-size: 3em;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+	.UPA {
+		width: 25vw;
+	}
+
+	.introduction {
+		font-size: 2.3em;
+	}
+
+	.buttonQ {
+		font-size: 2.5em;
+	}
+
+	#A13, #A16, #A37, #A45, #A46, #A47, #A57, #A58, #A60 {
+	    font-size: 1.8em;
+    }
+
+    .marks {
+    	font-size: 2.5em;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+	.introduction {
+		margin-bottom: 5%;
+	}
+
+	.UPA {
+		margin-top: 5%;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+	.UPA-prapor {
+		width: 50vw;
+	}
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+	.UPA {
+		width: 15vw;
+	}
+
+	.introduction {
+		margin-top: 3%;
+	}
+
+	.buttonQ {
+		font-size: 1.7em;
+	}
+
+	.UPA-prapor {
+		width: 25vw;
+	}
+
+}
